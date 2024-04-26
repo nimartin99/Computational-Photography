@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "cp_2023-exercises"
+version = "0.1.0"
+description = "This environment contains all comp phot exercises."
+authors = ["andreasEngelhardt <andreas.engelhardt@uni-tuebingen.de>"]
+readme = "README.md"
+packages = [{include = "cp_2023_exercises"}]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+numpy = "<1.24"
+opencv-python = "^4.7.0.72"
+imageio = "^2.27.0"
+tqdm = "^4.65.0"
+scikit-image = "^0.20.0"
+nodejs = "^0.1.1"
+jupyterlab = "^3.6.3"
+jupyterlab-git = "^0.41.0"
+jupyterlab-code-formatter = "^1.6.0"
+jupyterlab-lsp = "^4.0.1"
+isort = "^5.12.0"
+flake8 = "^6.0.0"
+pytest = "^7.3.0"
+black = "^23.3.0"
+docformatter = "^1.6.0"
+jedi = "^0.18.2"
+rope = "^1.7.0"
+ipympl = "^0.9.3"
+numba = "^0.56.4"
+matplotlib = "^3.7.1"
+jedi-language-server = "^0.40.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
